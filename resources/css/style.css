@@ -97,11 +97,39 @@ body {
 
 .specials-container {
   display: flex;
-  align-items; center;
+  flex-direction: column;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+.monthly-specials {
+  justify-content: center;
+  display: block;
+  width: 1000px;
+  flex-flow: wrap row;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.specials {
+  display: inline-flex;
+  width: 100%;
+  flex-flow: wrap row;
   justify-content: center;
 }
 
+.special {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
 
+.special img {
+  width: 300px;
+  height: 200px;
+}
 
 
 /* Footer Section */
